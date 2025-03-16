@@ -1,0 +1,8 @@
+flask
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+gunicorn
+jupyterlab
