@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-@app.route("/add", methods=["POST"])
+@app.route("/", methods=["POST"])
 def add():
     data = request.json
     return jsonify({"result": data["a"] + data["b"]})
