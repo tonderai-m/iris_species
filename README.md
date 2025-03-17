@@ -1,35 +1,33 @@
-# iris_species
-# Front-End and Back-End Integration Example
+# Data Science Project: Best Linear Predictor (BLP) with Front-End Interface
 
-This project demonstrates how to create a simple front-end that communicates with a back-end API deployed using Flask. The project uses a web interface for users to input data, which is then sent to the Flask back-end to process and return a result.
+This project demonstrates how to build a **Best Linear Predictor (BLP)** model for predictive data science analysis and integrate it with a user-friendly front-end interface for real-time interaction.
+
+The project includes:
+1. **Data Science Component**: A predictive model built using the Best Linear Predictor (BLP) approach.
+2. **Front-End Interface**: An interactive web interface where users can input data and view the prediction result from the model.
+3. **Back-End API**: A Flask-based API that hosts the model and interacts with the front-end.
 
 ## Project Overview
 
-The project consists of two main parts:
-1. **Front-End**: A simple HTML page with an input form that collects data from the user.
-2. **Back-End**: A Flask API that processes the data and returns a result (e.g., simple addition of numbers or prediction from a model).
+This project aims to apply the **Best Linear Predictor (BLP)** method to predict a dependent variable from input features. The model is implemented in Python and Flask, while the front-end uses HTML and JavaScript for user interaction.
 
-### Front-End
-- The front-end is a basic HTML form that collects two numbers from the user.
-- It communicates with the back-end using JavaScript's `fetch()` function to send a POST request to the Flask API.
-- The result from the API is displayed dynamically on the front-end without needing to reload the page.
-
-### Back-End
-- The back-end is a Flask application deployed on a hosting platform like **Render**.
-- The back-end receives a JSON payload with two numbers (or data) from the front-end, processes them, and sends back a response with the result.
+### Key Components:
+1. **Best Linear Predictor (BLP) Model**: 
+    - The model is implemented to predict the best possible linear estimate of a dependent variable using input features. It uses a statistical approach to minimize error and maximize prediction accuracy.
+2. **Front-End Interface**: 
+    - The user inputs relevant data through an HTML form. 
+    - The data is then sent to the Flask back-end, which applies the BLP model and returns the prediction.
+3. **Back-End API (Flask)**: 
+    - The Flask API receives the input data, processes it using the BLP model, and sends back the prediction result.
+    - The API also handles requests from the front-end in a JSON format.
 
 ## Technologies Used
 
-- **Front-End**: HTML, CSS (for basic styling), JavaScript (for asynchronous communication)
-- **Back-End**: Python, Flask (for the API)
-- **Deployment**: GitHub Pages (for front-end), Render (for back-end)
+- **Data Science**: Python, NumPy, Pandas, Scikit-learn (or other libraries for statistical analysis)
+- **Back-End**: Python, Flask (for creating the RESTful API)
+- **Front-End**: HTML, JavaScript (with Fetch API for making requests to the back-end)
+- **Deployment**: GitHub Pages (for front-end), Render/Heroku (for back-end)
 
 ## Getting Started
 
-To get this project up and running on your local machine or deploy it to your own hosting environment, follow these steps:
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
-
+To get this project up and running on your local machine or deploy it to your hosting environment, follow the steps below.
