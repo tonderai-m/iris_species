@@ -1,0 +1,9 @@
+numpy
+pandas
+flask
+flask_cors
+torch
+torchvision
+scikit-learn
+gunicorn
+jupyterlab
